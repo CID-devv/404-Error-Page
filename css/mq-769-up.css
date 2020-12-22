@@ -1,0 +1,63 @@
+.main-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.left__content--top h3 {
+    position: absolute;
+    min-width: 300px;
+    min-height: 25px;
+    left: 77px;
+    top: 40px;
+    font-size: 35px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+}
+
+.left__content--img img {
+    position: absolute;
+    left: 1.35%;
+    right: 57.21%;
+    top: 20.54%;
+    bottom: 34.03%;
+    min-width: 410px;
+    min-height: 390px;
+}
+
+.right__content--middle h1 {
+    position: absolute;
+    left: 435px;
+    top: 265px;
+    min-width: 586px;
+    min-height: 190px;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+
+.right__content--middle p {
+    position: absolute;
+    min-width: 381px;
+    min-height: 108px;
+    left: 435px;
+    top: 491px;
+    line-height: 36px;
+}
+
+.right__content--middle input {
+    position: absolute;
+    min-width: 316px;
+    min-height: 88px;
+    left: 435px;
+    top: 663px;
+    font-size: 25px;
+}
+
+.main-footer {
+    position: absolute;
+    min-width: 700px;
+    left: 135px;
+    top: 1000px;
+    font-size: 34px;
+    line-height: 17px;
+}
